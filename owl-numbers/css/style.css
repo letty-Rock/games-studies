@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* Geral */
+p.center {
+  text-align: center;
+  color: black;
+}
+
+p.r1, form.r1 {
+  display: none;
+}
+
+p.r2 {
+  display: none;
+}
+
+a.fa {
+  font-size: 38px;
+}
+
+.btn-default,
+.btn-default:focus, .btn-default:hover {
+  color: black;
+  background-color: white;
+}
+
+section.container {
+  height: 350px;
+}
+
+img#owl {
+  margin-top: 3%;
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Estudando JS">
+  <meta name="author" content="Raul Esteves">
+  <title>Owl's number</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <section class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Welcome mortal!</h1>
+          <p>I realize that you are seeking knowledge. Do you want me to access my cosmic powers to find a powerful number?</p>
+          <p class="center">
+            <button class="btn btn-default" onclick="accept()" id="btnAc">Yes, please lady Owl!</button>
+            <button class="btn btn-default" onclick="refuse()" id="btnRf">No, i'm fine</button>
+          </p>
+          <br>
+          <p class="r1">There is! I already know! Let's see if you are worthy to know it!</p>
+          <p class="r1">With my infinite goodness I will give you this tip: the number is between 1 and 100.</p>
+          <p class="r2">Ok, goodbye!</p>
+          <form class="r1" name="formulary" onsubmit="return testNumber();">
+            <fieldset>
+              <br>
+              <label>Number you are thinking:</label>
+              <input type="number" maxlength="100" name="entry"/>
+              <input type="submit" value="Check">
+              <p class="small">If you want to find another number, I can give you the opportunity. Click on my faithful canine companion</p>
+              <p class="center"><img src="img/jake.gif" onclick="location.reload()"></p>
+            </fieldset>
+          </form>
+        </div>
+        <div class="col-sm-6">
+          <p class="center">
+            <img class="" src="img/cosmic-owl.png" id="owl">
+            <p class="center" id="result"></p>
+            <p class="center" id="attempt"></p>
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="rodape" style="background-color: #deded4">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="center" style="margin-top: 1%">
+            <a class="fa fa-github-square" href="https://github.com/raullesteves" style="color: black"></a>
+            <a class="fa fa-youtube-square" href="https://www.youtube.com/?gl=BR" style="color: #e42223"></a>
+            <a class="fa fa-facebook-square" href="https://www.facebook.com/raul.esteves.7524" style="color:#445fae"></a>
+            <a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/raul-esteves-677107160/" style="color:#2a8ab2"></a>
+            <a class="fa fa-twitter-square" href="https://twitter.com/raullesteves" style="color:#0caaeb"></a>
+          </p>
+          <p class="center" style="color: #000">Copyright &copy; 2018 - All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
