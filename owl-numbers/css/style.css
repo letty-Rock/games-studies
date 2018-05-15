@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 /* Geral */
+
+div#top {
+  height: 350px;
+}
+
 p.center {
   text-align: center;
   color: black;

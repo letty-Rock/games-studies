@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+table {
+  margin-top: 8%;
+  margin-left: 32%;
+  border-collapse: collapse;
+}
+
+td {
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+}
+
+p.center {
+  font-size: 80px;
+  margin: 0px;
+  text-align: center;
+}
+

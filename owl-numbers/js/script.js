@@ -41,7 +41,7 @@ function tries(count) {
 }
 
 function testNumber() {
-  number = document.formulary.entry.value;
+  var number = document.formulary.entry.value;
 
   count++;
   if(number == random) {
