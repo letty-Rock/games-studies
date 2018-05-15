@@ -2,6 +2,8 @@
 
 var rodada = 0;
 
+
+
 function enviaId(position) {
   var x = position;
 
@@ -17,3 +19,13 @@ function enviaId(position) {
   }
 }
 
+function btnStatus(x) {
+  if (x == 1) {
+    document.getElementById('btn1').className = 'btn btn-success'
+    document.getElementById('btn2').disabled = true;
+  }
+  else {
+    document.getElementById('btn2').className = 'btn btn-success'
+    document.getElementById('btn1').disabled = true;
+  }
+}
