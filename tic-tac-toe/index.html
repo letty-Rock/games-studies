@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,37 +8,30 @@
   <link rel="stylesheet" href="bootstrap.min.css">
   <title>Tic tac toe</title>
 </head>
-
 <body>
   <table>
     <tr>
-      <td id="1" onclick="enviaId('1')"></td>
-      <td id="2" onclick="enviaId('2')"></td>
-      <td id="3" onclick="enviaId('3')"></td>
+      <td id="1" onclick="enviaId(1)"></td>
+      <td id="2" onclick="enviaId(2)"></td>
+      <td id="3" onclick="enviaId(3)"></td>
     </tr>
     <tr>
-      <td id="4" onclick="enviaId('4')"></td>
-      <td id="5" onclick="enviaId('5')"></td>
-      <td id="6" onclick="enviaId('6')"></td>
+      <td id="4" onclick="enviaId(4)"></td>
+      <td id="5" onclick="enviaId(5)"></td>
+      <td id="6" onclick="enviaId(6)"></td>
     </tr>
     <tr>
-      <td id="7" onclick="enviaId('7')"></td>
-      <td id="8" onclick="enviaId('8')"></td>
-      <td id="9" onclick="enviaId('9')"></td>
+      <td id="7" onclick="enviaId(7)"></td>
+      <td id="8" onclick="enviaId(8)"></td>
+      <td id="9" onclick="enviaId(9)"></td>
     </tr>
   </table>
-
   <aside id="menu">
-  
   <p class="center" style="font-size: 17px; margin: 10px 0px 10px 0px">Escolha o modo de jogo</p>
-  
   <input type="button" value="1 Player" class="btn btn-default" onclick="btnStatus(1)" id="btn1">
   <input style="margin-left: 20px" type="button" value="2 Players" class="btn btn-default" onclick="btnStatus(2)" id="btn2">
-  
   <br><input class="btn btn-danger center" style="margin: 15px 0 0 60px" type="button" value="restart" onclick="location.reload()">
   </aside>
-
   <script src="script.js"></script>
 </body>
-
 </html>
