@@ -3,7 +3,7 @@
 /* Table */
 
 table {
-  margin-top: 5%;
+  margin-top: 4%;
   margin-left: 20%;
   border-collapse: collapse;
 }
@@ -44,4 +44,10 @@ aside#menu {
   border: 2px solid black;
   padding: 2px 10px 15px 10px;
   box-shadow: 2px 2px 1px black;
+}
+
+aside#winner {
+  position: relative;
+  top: -430px;
+  left: 850px;
 }
