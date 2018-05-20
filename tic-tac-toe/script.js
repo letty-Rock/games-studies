@@ -60,6 +60,9 @@ function arraysEqual(arr1, arr2) {
       }
     }
     if (count == 3) {
+      for(i = 0; i < arr1.length; i++){
+        document.getElementById(arr1[i]).style.backgroundColor = "#00b489";
+      }
       return true;
     }
   }

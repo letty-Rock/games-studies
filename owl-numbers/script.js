@@ -18,7 +18,7 @@ function refuse() {
   var x = document.querySelectorAll('.r2');
   x[0].style.display = 'unset';
   document.getElementById('btnAc').disabled = true;
-  document.getElementById('owl').src = 'img/cosmic-owl-out.gif'
+  document.getElementById('owl').src = '../img/cosmic-owl-out.gif'
   document.getElementById('owl').className = 'animated fadeOutRight'
 }
 

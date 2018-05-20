@@ -5,3 +5,11 @@
 a.fa {
   font-size: 30px;
 }
+
+#rodape a.fa {
+  font-size: 38px;
+}
+
+p.center {
+  text-align: center;
+}
