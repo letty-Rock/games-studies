@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Memory Matching</title>
+</head>
+
+<body>
+  <button onclick="start(cartas)" id="btn">Start</button>
+
+  <div class="placar">
+    <p>Player 1:</p><p id="p1"></p>
+    <p>Player 2:</p><p id="p2"></p>
+  </div>
+  <table>
+    <tr>
+      <td id="0" onclick="virarCarta(0)"></td>
+      <td id="1" onclick="virarCarta(1)"></td>
+      <td id="2" onclick="virarCarta(2)"></td>
+      <td id="3" onclick="virarCarta(3)"></td>
+    </tr>
+    <tr>
+      <td id="4" onclick="virarCarta(4)"></td>
+      <td id="5" onclick="virarCarta(5)"></td>
+      <td id="6" onclick="virarCarta(6)"></td>
+      <td id="7" onclick="virarCarta(7)"></td>
+    </tr>
+    <tr>
+      <td id="8" onclick="virarCarta(8)"></td>
+      <td id="9" onclick="virarCarta(9)"></td>
+      <td id="10" onclick="virarCarta(10)"></td>
+      <td id="11" onclick="virarCarta(11)"></td>
+    </tr>
+    <tr>
+      <td id="12" onclick="virarCarta(12)"></td>
+      <td id="13" onclick="virarCarta(13)"></td>
+      <td id="14" onclick="virarCarta(14)"></td>
+      <td id="15" onclick="virarCarta(15)"></td>
+    </tr>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

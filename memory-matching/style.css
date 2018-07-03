@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+table {
+  margin-top: 50px;
+  margin-left: 400px;
+}
+
+td {
+  height: 125px;
+  width: 125px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.placar {
+  font-size: 20px;
+  position: absolute;
+  top: 100px;
+}
+
+#btn {
+  position: absolute;
+  left: 150px;
+  font-size: 25px;
+}
