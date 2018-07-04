@@ -6,7 +6,6 @@ function shuffle(array) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
-  return array;
 }
 
 function start(array) {
@@ -20,9 +19,9 @@ function virarCarta(x) {
   count++;
   if (count == 1) {
     temp1 = x;
-    document.getElementById(x).style.color = "black";
+    document.getElementById(x).style.backgroundColor = "white";
   } else {
-    document.getElementById(x).style.color = "black";
+    document.getElementById(x).style.backgroundColor = "white";
     temp2 = x;
     count = 0;
     if (cartas[temp1] == cartas[temp2]) {
@@ -36,6 +35,6 @@ function virarCarta(x) {
 }
 
 function limparCartas() {
-  document.getElementById(temp1).style.color = "white";
-  document.getElementById(temp2).style.color = "white";
+  document.getElementById(temp1).style.backgroundColor = "brown";
+  document.getElementById(temp2).style.backgroundColor = "brown";
 }
